@@ -31,5 +31,5 @@ Milestones
 
 Google Maps Setup
 ---
-Go to the SDK Manager and get "Google Play services for Froyo" under Extras (the more recent one didn't work for me). In Eclipse, click File -> Import -> Android -> Existing Android Code into Workspace. Browse to <android_sdk>/extras/google_play_services_froyo/libproject/google-play-services_lib, check "Copy projects into workspace," and click "Finish."
+Go to the SDK Manager and get "Google Play services for Froyo" under Extras (the more recent one didn't work for me). In Eclipse, click File -> Import -> Android -> Existing Android Code into Workspace. Browse to YourAndroidSDKLocation/extras/google_play_services_froyo/libproject/google-play-services_lib, check "Copy projects into workspace," and click "Finish."
 The references in the Ghost project should be fine after that.. however, getting this done was quite convoluted for me, so if there are any issues please contact me.
