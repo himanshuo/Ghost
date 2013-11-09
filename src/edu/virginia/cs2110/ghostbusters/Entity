@@ -1,0 +1,17 @@
+package edu.virginia.cs2110.ghostbusters;
+import com.google.android.gms.maps.SupportMapFragment;
+import android.content.Context;
+import android.location.Location;
+
+
+public interface Entity {
+
+	
+	public Entity getClosestEntity();
+	
+	
+	
+}
+
+
+
