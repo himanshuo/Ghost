@@ -1,0 +1,22 @@
+package edu.virginia.cs2110.ghostbusters;
+
+import android.location.Location;
+
+public class Ghost implements Entity {
+
+	private Location myLocation; 
+	
+	public Ghost()
+	{
+		myLocation = GhostMapFragment.getMyLocation();
+		
+	}
+	
+	
+	@Override
+	public Entity getClosestEntity() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
