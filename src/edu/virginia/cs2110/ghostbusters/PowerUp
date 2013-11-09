@@ -1,0 +1,21 @@
+package edu.virginia.cs2110.ghostbusters;
+
+import android.location.Location;
+
+public class PowerUp implements Entity {
+
+	
+private Location myLocation; 
+	
+	public PowerUp()
+	{
+		myLocation = GhostMapFragment.getMyLocation();
+		
+	}
+	@Override
+	public Entity getClosestEntity() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
