@@ -1,0 +1,31 @@
+package edu.virginia.cs2110.ghostbusters;
+import com.google.android.gms.maps.SupportMapFragment;
+
+import android.content.Context;
+import android.location.Location;
+public class Player implements Entity{
+
+	Location myLocation;
+	String name;
+	//something to store image
+	public Player(String name)
+	{
+		myLocation = GhostMapFragment.getMyLocation();
+		this.name=name;
+		
+	}
+	
+	
+	@Override
+	public Entity getClosestEntity() {
+		
+		
+		
+		
+		return null;
+		
+	}
+	
+}
+
+
